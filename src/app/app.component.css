@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+#textoinicio {
+    font-size: 80px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 6px;
+}
+
+@keyframes mymove {
+
+    0%,
+    100% {
+        color: #f56a3f;
+    }
+
+    50% {
+        color: #9e42b0;
+    }
+}
+
+#Nombre {
+    animation: mymove 5s infinite;
+}
+
+.navbar {
+    background-color: #131313;
+
+}
+
+#titulo {
+
+    transition: ease 0.5s;
+    background-color: #FF0066;
+    color: rgb(13, 13, 13);
+}
+
+#titulo:hover {
+    transition: ease 0.5s;
+}
+
+.Footer1 {
+    height: auto;
+    background-color: #FF0066;
+}
+
+#contenido-footer {
+    padding-top: 50px;
+}
+
+.image-wrapper {
+    background-color: var(--base);
+    display: flex;
+    flex: 1 1 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: var(--spacing);
+    position: relative;
+}
+
+.image-wrapper img {
+    filter: grayscale(100%) contrast(1) blur(var(--blur));
+    flex: 1 0 100%;
+    height: 100%;
+    max-width: 100%;
+    mix-blend-mode: var(--bg-blend);
+    object-fit: cover;
+    opacity: var(--opacity);
+    position: relative;
+    width: 100%;
+}
+
+.image-wrapper::before {
+    background-color: var(--foreground);
+    bottom: 0;
+    content: '';
+    height: 100%;
+    left: 0;
+    mix-blend-mode: var(--fg-blend);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
