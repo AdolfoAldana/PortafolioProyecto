@@ -1,3 +1,13 @@
+El proceso que se siguio para crear la aplicacion fue
+1. Creacion del enmaquetado
+2. Seleccion de paleta de colores
+3. Informacion que se iba a mostrar
+4. Seleccion de tecnologias a usar
+5. Creacion Proyecto Angular
+6. Creacion de pagina plana
+7. Agregar decoracion CSS
+
+
 # PortafolioProyecto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
