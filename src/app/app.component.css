@@ -18,10 +18,24 @@
     50% {
         color: #9e42b0;
     }
+}@keyframes mymove1 {
+
+    0%,
+    100% {
+        background-color: #f56a3f;
+    }
+
+    50% {
+        background-color: #9e42b0;
+    }
 }
 
 #Nombre {
     animation: mymove 5s infinite;
+}
+#GIT{
+   
+    animation: mymove1 5s infinite;
 }
 
 .navbar {
@@ -33,7 +47,7 @@
 
     transition: ease 0.5s;
     background-color: #FF0066;
-    color: rgb(13, 13, 13);
+    color: #131313;
 }
 
 #titulo:hover {
